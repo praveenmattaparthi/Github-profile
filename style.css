@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+header {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+color: coral;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+
+}
+
+#Img {
+    border-radius: 35%;
+    margin-top: 15px;
+}
+#profileName {
+    width: 20%;
+    height: 2rem;
+    border: 1px solid coral;
+}
+
+#submit {
+    width: 6rem;
+    color: white;
+    font-size: 14px;
+    background-color:black;
+border: 1px solid coral;
+
+}
+
+#display {
+    display :flex;
+    justify-content: center;
+    margin-left: 25%;
+    width: 50%;
+    font-weight: bold;
+}
+
+#profile {
+    display: grid;
+}
+
+p {
+    padding: 10px;
+    color: black;
+    font-weight: 10rem;
+}
+
+@media (max-width: 480px) {
+    body {
+        background-image: url(snow.jpg);
+    }
+
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        background-image: url(snow.jpg);
+    }
+}
+@media (min-width: 1025px) {
+    body {
+	    background-image: url(snow.jpg);
+   }
+}
